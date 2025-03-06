@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Food, LLC</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav visible-xs">
+                    <li><a href="#chicken">Chicken</a></li>
+                    <li><a href="#beef">Beef</a></li>
+                    <li><a href="#sushi">Sushi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1 class="text-center">Our Menu</h1>
+        <div class="row">
+            <div class="col-xs-12 section" id="chicken">
+                <h3 class="text-center">Chicken</h3>
+                <p>Delicious chicken dishes...</p>
+            </div>
+            <div class="col-xs-12 section" id="beef">
+                <h3 class="text-center">Beef</h3>
+                <p>Savory beef specialties...</p>
+            </div>
+            <div class="col-xs-12 section" id="sushi">
+                <h3 class="text-center">Sushi</h3>
+                <p>Fresh and tasty sushi...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
